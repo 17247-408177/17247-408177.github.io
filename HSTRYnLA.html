@@ -1,96 +1,90 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
   <meta charset="UTF-8">
-    <title>HSTRYnLA</title>
+  <title>HSTRYnLA</title>
   <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
-    
-<title>HSTRYnLA</title>
-
-<style>
-body {
-   background-color: #FFFFFF;
-   color: #000000;
-   font-family: 'VT323', serif;
-   font-size: 19px;
-   letter-spacing: 1.5px;
-   line-height: 20px;
-   padding: 200px;
-}
-h1 {
-   font-size: 13px;
-   margin-bottom: -12px;
-}
-h2 {
-   font-size: 15px;
-}
-   
-a
-{
+  <title>HSTRYnLA</title>
+  <style>
+  body {
+    background-color: #FFFFFF;
     color: #000000;
-   text-decoration: none;
-}
-   
-</style>
-
-<script>
-  /*
-* Basic Count Up from Date and Time
-*/
-window.onload=function() {
-  // Month,Day,Year,Hour,Minute,Second
-  upTime('jul,25,2018,23:01:00'); // ****** Change this line!
-}
-function upTime(countTo) {
-  now = new Date();
-  countTo = new Date(countTo);
-  difference = (now-countTo);
-
-  days=Math.floor(difference/(60*60*1000*24)*1);
-  hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
-  mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
-  secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
-
-  document.getElementById('days').firstChild.nodeValue = days;
-  document.getElementById('hours').firstChild.nodeValue = hours;
-  document.getElementById('minutes').firstChild.nodeValue = mins;
-  document.getElementById('seconds').firstChild.nodeValue = secs;
-
-  clearTimeout(upTime.to);
-  upTime.to=setTimeout(function(){ upTime(countTo); },1000);
-}
-</script>
-
-<style>
-#countup {
-    text-align: left;
-}
-#countup p {
-    display: inline-block;
-    padding: 0px;
-    background: #FFFFFF;
     font-family: 'VT323', serif;
     font-size: 19px;
-    letter-spacing: .5px;
+    letter-spacing: 1.5px;
     line-height: 20px;
-    margin: 0 0 0px;
-    border-radius: 0px;
-    color: black;
-    min-width: 1rem;
+    padding: 200px;
+  }
+  h1 {
+    font-size: 13px;
+    margin-bottom: -12px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+    
+  a
+  {
+     color: #000000;
+    text-decoration: none;
+  }
+    
+  </style>
+  <script>
+   /*
+  * Basic Count Up from Date and Time
+  */
+  window.onload=function() {
+   // Month,Day,Year,Hour,Minute,Second
+   upTime('jul,25,2018,23:01:00'); // ****** Change this line!
+  }
+  function upTime(countTo) {
+   now = new Date();
+   countTo = new Date(countTo);
+   difference = (now-countTo);
+
+   days=Math.floor(difference/(60*60*1000*24)*1);
+   hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+   mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+   secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+
+   document.getElementById('days').firstChild.nodeValue = days;
+   document.getElementById('hours').firstChild.nodeValue = hours;
+   document.getElementById('minutes').firstChild.nodeValue = mins;
+   document.getElementById('seconds').firstChild.nodeValue = secs;
+
+   clearTimeout(upTime.to);
+   upTime.to=setTimeout(function(){ upTime(countTo); },1000);
+  }
+  </script>
+  <style>
+  #countup {
+     text-align: left;
+  }
+  #countup p {
+     display: inline-block;
+     padding: 0px;
+     background: #FFFFFF;
+     font-family: 'VT323', serif;
+     font-size: 19px;
+     letter-spacing: .5px;
+     line-height: 20px;
+     margin: 0 0 0px;
+     border-radius: 0px;
+     color: black;
+     min-width: 1rem;
 
 
-}
-</style>
-
+  }
+  </style>
 </head>
-  
-  <body>
-
-  <h1><div align="justify">Arrival: 25.07.2018 11:01PM PDT N 33° 56' 47.224''  W 118° 24' 28.757'' </div>
-
-<div id="countup">
+<body>
+  <div align="justify">
+    <h1>Arrival: 25.07.2018 11:01PM PDT N 33° 56' 47.224'' W 118° 24' 28.757'' </h1>
+    <div id="countup">
+      <h1></h1>
+    </div>
+  </div>
   <p id="days">00</p>
   <p class="timeRefDays">days</p>
   <p id="hours">00</p>
@@ -98,21 +92,14 @@ function upTime(countTo) {
   <p id="minutes">00</p>
   <p class="timeRefMinutes">minutes</p>
   <p id="seconds">00</p>
-  <p class="timeRefSeconds">second</p>
-     .elapsed </h1>
-</div>
-
-<br>
-<p dir="rtl">
-08.03.2018 • The Roxy • Kedr Livianskiy • LD <br>
-08.04.2018 • The Roxy • Young M.A. • SM <br>
-08.07.2018 • Capitol • DJ Durel ft. Migos "Hot Summer" • PA <br>
-08.10.2018 • The Roxy • Photoshoot • LD <br>
-08.10.2018 • Intercommunity Care Center • Rich the Kid "leave Me" • PA <br>
-• • • <br>
-• • • <br>
-• • • <br>
-
-</p>
-  </body>
+  <p class="timeRefSeconds">second</p>.elapsed<br>
+  <p dir="rtl">08.03.2018 • The Roxy • Kedr Livianskiy • LD<br>
+  08.04.2018 • The Roxy • Young M.A. • SM<br>
+  08.07.2018 • Capitol • DJ Durel ft. Migos "Hot Summer" • PA<br>
+  08.10.2018 • The Roxy • Photoshoot • LD<br>
+  08.10.2018 • Intercommunity Care Center • Rich the Kid "leave Me" • PA<br>
+  • • •<br>
+  • • •<br>
+  • • •<br></p>
+</body>
 </html>

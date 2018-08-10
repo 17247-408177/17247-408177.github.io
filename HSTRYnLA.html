@@ -69,7 +69,9 @@ function upTime(countTo) {
 #countup p {
     display: inline-block;
     padding: 10px;
+    padding: 0px;
     background: #FFFFFF;
+<<<<<<< HEAD
     font-family: 'VT323', serif;
     font-size: 19px;
     letter-spacing: .5px;
@@ -77,8 +79,16 @@ function upTime(countTo) {
    padding: 20px;
     margin: 0 0 20px;
     border-radius: 1px;
+=======
+    margin: 0 0 0px;
+    border-radius: 0px;
+>>>>>>> 8646edd04eceb3e1beea7eaae7cc11dfbd40ee23
     color: black;
     min-width: 2.6rem;
+    min-width: 1rem;
+    font-family: 'VT323', serif;
+    font-size: 19px;
+
 }
 </style>
 
@@ -90,6 +100,7 @@ function upTime(countTo) {
 
 <div id="countup">
   It's been
+ 
   <p id="days">00</p>
   <p class="timeRefDays">days</p>
   <p id="hours">00</p>
@@ -98,6 +109,7 @@ function upTime(countTo) {
   <p class="timeRefMinutes">minutes</p>
   <p id="seconds">00</p>
   <p class="timeRefSeconds">second</p>
+	.elapsed
 </div>
 
 <br>

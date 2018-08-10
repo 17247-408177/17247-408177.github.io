@@ -2,3 +2,20 @@ font-family: 'VT323', monospace;
 .cp {
   padding: 1em 2%px 2em; 
 }
+
+#wrapper {
+    width: 100%;
+    min-width: 1000px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+#contentliquid {
+    float: left;
+    width: 100%;
+}
+
+#content {
+    background: #FFFFFF;
+    width: 100%;
+}

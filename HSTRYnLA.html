@@ -34,14 +34,8 @@ a
    
 </style>
 
-</head>
-  
-  <body>
-  <h1>Arrival: 25.07.2018 11:01PM PDT N 33° 56' 47.224''	W 118° 24' 28.757''</h1>
-<br>
-
 <script>
-/*
+	/*
 * Basic Count Up from Date and Time
 */
 window.onload=function() {
@@ -67,6 +61,39 @@ function upTime(countTo) {
   upTime.to=setTimeout(function(){ upTime(countTo); },1000);
 }
 </script>
+
+<style>
+#countup {
+    text-align: left;
+}
+#countup p {
+    display: inline-block;
+    padding: 10px;
+    background: #FFFFFF;
+    margin: 0 0 20px;
+    border-radius: 3px;
+    color: black;
+    min-width: 2.6rem;
+}
+</style>
+
+</head>
+  
+  <body>
+  <h1>Arrival: 25.07.2018 11:01PM PDT N 33° 56' 47.224''	W 118° 24' 28.757''</h1>
+<br>
+
+<div id="countup">
+  It's been
+  <p id="days">00</p>
+  <p class="timeRefDays">days</p>
+  <p id="hours">00</p>
+  <p class="timeRefHours">hours</p>
+  <p id="minutes">00</p>
+  <p class="timeRefMinutes">minutes</p>
+  <p id="seconds">00</p>
+  <p class="timeRefSeconds">second</p>
+</div>
 
 <br>
 <p dir="rtl">

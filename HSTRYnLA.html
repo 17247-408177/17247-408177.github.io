@@ -33,7 +33,6 @@
      color: #000000;
     text-decoration: none;
   }
-
     
   </style>
   <script>
@@ -48,17 +47,14 @@
    now = new Date();
    countTo = new Date(countTo);
    difference = (now-countTo);
-
    days=Math.floor(difference/(60*60*1000*24)*1);
    hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
    mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
    secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
-
    document.getElementById('days').firstChild.nodeValue = days;
    document.getElementById('hours').firstChild.nodeValue = hours;
    document.getElementById('minutes').firstChild.nodeValue = mins;
    document.getElementById('seconds').firstChild.nodeValue = secs;
-
    clearTimeout(upTime.to);
    upTime.to=setTimeout(function(){ upTime(countTo); },1000);
   }
@@ -79,8 +75,6 @@
      border-radius: 0px;
      color: black;
      min-width: 0rem;
-
-
   }
   </style>
 
@@ -108,7 +102,8 @@
 <p dir="rtl">
 08.03.2018 • The Roxy • Kedr Livianskiy • LD <br>
 08.04.2018 • The Roxy • Young M.A. • SM <br>
-08.07.2018 • DJ Durel ft. Migos "Hot Summer" • PA <br>08.10.2018 • The Roxy • Photoshoot • LD <br>
+08.07.2018 • DJ Durel ft. Migos "Hot Summer" • PA <br>
+08.10.2018 • Ziggy Marley • Photoshoot • LD <br>
 <s>08.10.2018 • Rich The Kid "Leave Me" • PA</s><br>
 • • • <br>
 • • • <br>

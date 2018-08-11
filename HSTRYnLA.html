@@ -8,6 +8,7 @@
   <title>HSTRYnLA</title>
   <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
   <title>HSTRYnLA</title>
+  
   <style>
   body {
     background-color: #FFFFFF;
@@ -34,6 +35,22 @@
     text-decoration: none;
   }
     
+  #countup {
+     text-align: left;
+  }
+  #countup p {
+     display: inline-block;
+     padding: 0px;
+     background: #FFFFFF;
+     font-family: 'VT323', serif;
+     font-size: 19px;
+     letter-spacing: .5px;
+     line-height: 20px;
+     margin: 0 0 0px;
+     border-radius: 0px;
+     color: black;
+     min-width: 0rem;
+  }
   </style>
 
   <script>
@@ -61,155 +78,6 @@
   }
   </script>
 
-  <style>
-  #countup {
-     text-align: left;
-  }
-  #countup p {
-     display: inline-block;
-     padding: 0px;
-     background: #FFFFFF;
-     font-family: 'VT323', serif;
-     font-size: 19px;
-     letter-spacing: .5px;
-     line-height: 20px;
-     margin: 0 0 0px;
-     border-radius: 0px;
-     color: black;
-     min-width: 0rem;
-  }
-  </style>
-
-  <style type="text/css">
-    
-    .blinking-cursor {
-  font-weight: 100;
-  font-size: 19px;
-  color: #c6c0cc;
-  -webkit-animation: 1s blink step-end infinite;
-  -moz-animation: 1s blink step-end infinite;
-  -ms-animation: 1s blink step-end infinite;
-  -o-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite;
-}
-
-@keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-moz-keyframes blink {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-webkit-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-ms-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-o-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-  </style>
-
-<script>
-
- var TxtType = function(el, toRotate, period) {
-        this.toRotate = toRotate;
-        this.el = el;
-        this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
-        this.txt = '';
-        this.tick();
-        this.isDeleting = false;
-    };
-
-    TxtType.prototype.tick = function() {
-        var i = this.loopNum % this.toRotate.length;
-        var fullTxt = this.toRotate[i];
-
-        if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-        }
-
-        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-        var that = this;
-        var delta = 200 - Math.random() * 100;
-
-        if (this.isDeleting) { delta /= 2; }
-
-        if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-        }
-
-        setTimeout(function() {
-        that.tick();
-        }, delta);
-    };
-
-    window.onload = function() {
-        var elements = document.getElementsByClassName('typewrite');
-        for (var i=0; i<elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-type');
-            var period = elements[i].getAttribute('data-period');
-            if (toRotate) {
-              new TxtType(elements[i], JSON.parse(toRotate), period);
-            }
-        }
-        // INJECT CSS
-        var css = document.createElement("style");
-        css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-        document.body.appendChild(css);
-    }
-
-</script>
-
-<style type="body {
-  background-color:#ce3635;
-  text-align: center;
-  color:#fff;
-  padding-top:10em;
-}
-
-* { color:#fff; text-decoration: none;}"></style>
-
-
 </head>
 
   <body>
@@ -233,19 +101,12 @@
 <br>
 <br>
 
-
 <p dir="rtl">
 08.03.2018 • The Roxy • Kedr Livianskiy • LD <br>
 08.04.2018 • The Roxy • Young M.A. • SM <br>
 08.07.2018 • DJ Durel ft. Migos "Hot Summer" • PA <br>
 08.10.2018 • Ziggy Marley • Photoshoot • LD <br>
 <s>08.10.2018 • Rich The Kid "Leave Me" • PA</s><br>
-<div align="right">
-  <a href="" class="typewrite" data-period="2000" data-type='[ "Incoming..." ]'>
-    </a>
-</div>
-</p>
-<p dir="rtl">
 
 <font color=#c6c0cc> 08.13.2018 • The Roxy • Clario • LD <br>
 08.14.2018 • The Roxy • Clario • LD <br>
@@ -256,19 +117,9 @@
 08.24.2018 • The Roxy • Bleeding Through • LD <br>
 08.30.2018 • The Roxy • The Strike • LD <br>
 08.31.2018 • The Roxy • Bad Bad Hats • LD <br>
-<div align="right">
-  <a href="" class="typewrite" data-period="2000" data-type='[ "..." ]'>
-    </a>
-</div>
-<div align="right">
-  <a href="" class="typewrite" data-period="2000" data-type='[ "..." ]'>
-    </a>
-</div>
-<div align="right">
-  <a href="" class="typewrite" data-period="2000" data-type='[ "..." ]'>
-    </a>
-</div>
-
+ • • • <br>
+ • • • <br>
+ • • • <br>
 
 </font>
 </p>

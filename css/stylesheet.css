@@ -1,4 +1,47 @@
-font-family: 'VT323', monospace;
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'VT323', monospace;
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    padding: 0px;
+    margin-right: 5%
+  }
+  h1 {
+  	font-family: 'VT323', monospace;
+    font-size: 15px;
+    margin-top: 2.5%;
+    margin-left: 5%;
+  }
+  h2 {
+  	font-family: 'VT323', monospace;
+    font-size: 15px;
+  }
+    
+  a
+  {
+     color: #000000;
+    text-decoration: none;
+  }
+    
+  #countup {
+     text-align: left;
+  }
+  #countup p {
+     display: inline-block;
+     padding: 0px;
+     background: #FFFFFF;
+     font-family: 'VT323', monospace;
+     font-size: 19px;
+     letter-spacing: .5px;
+     line-height: 20px;
+     margin: 0 0 0px;
+     border-radius: 0px;
+     color: black;
+     min-width: 0rem;
+  }
+
 .cp {
   padding: 1em 2%px 2em; 
 }

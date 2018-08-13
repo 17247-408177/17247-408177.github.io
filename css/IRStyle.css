@@ -1,7 +1,7 @@
 body {
     background-color: #FFFFFF;
     color: #000000;
-    font-family: 'Vollkorn', serif;
+    font-family: 'VT323', monospace;
     font-size: 24px;
     letter-spacing: 1.5px;
     line-height: 20px;
@@ -9,14 +9,14 @@ body {
     margin: 5%
   }
   h1 {
-  	font-family: 'Vollkorn', serif;
+  	font-family: 'VT323', monospace;
     font-size: 28px;
     margin-top: 2.5%;
     margin-left: 5%;
     margin-right: 5%;
   }
   h2 {
-  	font-family: 'Vollkorn', serif;
+  	font-family: 'VT323', monospace;
     font-size: 26px;
   }
     
@@ -32,3 +32,5 @@ body {
     background: #FFFFFF;
     width: 100%;
 }
+
+

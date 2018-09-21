@@ -1,5 +1,5 @@
-@page { margin: 0 }
-body { margin: 0 }
+@page { margin: 5% }
+body { margin: 5% }
 .sheet {
   margin: 5%;
   overflow: hidden;
@@ -67,5 +67,5 @@ h1 {
 
 #content {
     background: #FFFFFF;
-    width: 100%;
+    width: 70%;
 }

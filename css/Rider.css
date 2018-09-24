@@ -3,33 +3,43 @@ body
 	margin: 3% 5% 5%;
 	background-color: #FFFFFF;
 	font-family: VT323;
-	font-size: 21px;
+	font-size: 18px;
 	line-height: 20px;
 	color: #1A0048;
 }
 h1
 {
 	font-family: VT323;
-	font-size: 45px;
+	font-size: 34px;
 	text-align: center;
 	margin-top: 7%;
 }
 h2
 {
 	font-family: VT323;
-	font-size: 33px;
+	font-size: 28px;
 	margin: 3% 1% -0.5% -2%;
 }
 h3
 {
 	font-family: VT323;
-	font-size: 26px;
+	font-size: 22px;
 	margin: 3% 1% -1% -1%;
 }
 table
 {
 	font-family: VT323;
-	font-size: 26px;
+	font-size: 20px;
 	line-height: 1.2;
 	text-align: center;
+	/*+placement: margin-auto;*/
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: 0;
+	top: 0;
+	/*+box-shadow: 6px 6px 8px 0px #40007C;*/
+	-moz-box-shadow: 6px 6px 8px 0px #40007C;
+	-webkit-box-shadow: 6px 6px 8px 0px #40007C;
+	box-shadow: 6px 6px 8px 0px #40007C;
 }

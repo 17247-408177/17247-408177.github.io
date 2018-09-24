@@ -156,3 +156,11 @@ table
   -webkit-box-shadow: 6px 6px 8px 0px #40007C;
   box-shadow: 6px 6px 8px 0px #40007C;
 }
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}

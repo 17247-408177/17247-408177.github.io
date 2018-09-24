@@ -52,7 +52,7 @@ body
   -webkit-box-shadow: 6px 6px 8px 0px #40007C;
   box-shadow: 6px 6px 8px 0px #40007C;
   border-collapse: collapse; 
-  width: 95%; 
+  width: 85%; 
   height: 207px; 
   margin-left: auto; 
   margin-right: auto;
@@ -62,7 +62,7 @@ h1
   font-family: VT323;
   font-size: 34px;
   text-align: center;
-  margin-top: 7%;
+  margin-top: 2%;
 }
 h2
 {

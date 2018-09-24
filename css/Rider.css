@@ -7,6 +7,34 @@ body
 	line-height: 20px;
 	color: #1A0048;
 }
+#KeyInfo
+{
+	margin: 0% 0% 0% 6%;
+}
+#Gear
+{
+	margin: 0% 4%;
+}
+#Inputs
+{
+	margin: 0% 10%;
+}
+#StagePlots
+{
+	margin: 0% 20%;
+}
+#Backstage
+{
+	margin: 0% 6%;
+}
+#Hospitality
+{
+	margin: 0% 8%;
+}
+#TravelParty
+{
+	margin: 0% 6%;
+}
 #Header
 {
 	font-family: VT323;

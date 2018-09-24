@@ -7,6 +7,23 @@ body
 	line-height: 20px;
 	color: #1A0048;
 }
+#Header
+{
+	font-family: VT323;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	/*+placement: margin-auto;*/
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: 0;
+	top: 0;
+	/*+box-shadow: 6px 6px 8px 0px #40007C;*/
+	-moz-box-shadow: 6px 6px 8px 0px #40007C;
+	-webkit-box-shadow: 6px 6px 8px 0px #40007C;
+	box-shadow: 6px 6px 8px 0px #40007C;
+}
 h1
 {
 	font-family: VT323;
@@ -27,6 +44,74 @@ h3
 	margin: 3% 1% -1% -1%;
 }
 table
+{
+	font-family: VT323;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	/*+placement: margin-auto;*/
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: 0;
+	top: 0;
+	/*+box-shadow: 6px 6px 8px 0px #40007C;*/
+	-moz-box-shadow: 6px 6px 8px 0px #40007C;
+	-webkit-box-shadow: 6px 6px 8px 0px #40007C;
+	box-shadow: 6px 6px 8px 0px #40007C;
+}
+#backline
+{
+	font-family: VT323;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	/*+placement: margin-auto;*/
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: 0;
+	top: 0;
+	/*+box-shadow: -6px 6px 8px 0px #40007C;*/
+	-moz-box-shadow: -6px 6px 8px 0px #40007C;
+	-webkit-box-shadow: -6px 6px 8px 0px #40007C;
+	box-shadow: -6px 6px 8px 0px #40007C;
+}
+#Hospo
+{
+	font-family: VT323;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	/*+placement: margin-auto;*/
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: 0;
+	top: 0;
+	/*+box-shadow: -6px 6px 8px 0px #40007C;*/
+	-moz-box-shadow: -6px 6px 8px 0px #40007C;
+	-webkit-box-shadow: -6px 6px 8px 0px #40007C;
+	box-shadow: -6px 6px 8px 0px #40007C;
+}
+#inputlist
+{
+	font-family: VT323;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	/*+placement: margin-auto;*/
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: 0;
+	top: 0;
+	/*+box-shadow: 6px 6px 8px 0px #40007C;*/
+	-moz-box-shadow: 6px 6px 8px 0px #40007C;
+	-webkit-box-shadow: 6px 6px 8px 0px #40007C;
+	box-shadow: 6px 6px 8px 0px #40007C;
+}
+#travel
 {
 	font-family: VT323;
 	font-size: 20px;

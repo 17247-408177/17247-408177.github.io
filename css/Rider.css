@@ -104,6 +104,8 @@ table
 	-moz-box-shadow: -6px 6px 8px 0px #40007C;
 	-webkit-box-shadow: -6px 6px 8px 0px #40007C;
 	box-shadow: -6px 6px 8px 0px #40007C;
+	border-collapse: collapse; 
+width: 75%;
 }
 #Hospo
 {

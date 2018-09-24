@@ -51,6 +51,11 @@ body
   -moz-box-shadow: 6px 6px 8px 0px #40007C;
   -webkit-box-shadow: 6px 6px 8px 0px #40007C;
   box-shadow: 6px 6px 8px 0px #40007C;
+  border-collapse: collapse; 
+  width: 65%; 
+  height: 207px; 
+  margin-left: auto; 
+  margin-right: auto;
 }
 h1
 {
@@ -141,6 +146,8 @@ width: 100%;
   -moz-box-shadow: 6px 6px 8px 0px #40007C;
   -webkit-box-shadow: 6px 6px 8px 0px #40007C;
   box-shadow: 6px 6px 8px 0px #40007C;
+  border-collapse: collapse; 
+  width: 80%;
 }
 #travel
 {

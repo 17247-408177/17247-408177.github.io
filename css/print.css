@@ -1,6 +1,6 @@
 body
 {
-  margin: 0%;
+  margin: 3% 0%;
   background-color: #FFFFFF;
   font-family: VT323;
   font-size: 18px;
@@ -155,12 +155,4 @@ table
   -moz-box-shadow: 6px 6px 8px 0px #40007C;
   -webkit-box-shadow: 6px 6px 8px 0px #40007C;
   box-shadow: 6px 6px 8px 0px #40007C;
-}
-
-@media print
-{    
-    .no-print, .no-print *
-    {
-        display: none !important;
-    }
 }

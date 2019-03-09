@@ -28,7 +28,13 @@ body {
 table {
   width: 95%;
 }
-    
+th {
+  text-align: center;
+}
+td {
+  height: 75%;
+  vertical-align: center;
+}
   #countup {
      text-align: left;
   }

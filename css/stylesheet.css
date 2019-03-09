@@ -24,6 +24,10 @@ body {
      color: #ffffff;
     text-decoration: none;
   }
+
+table {
+  width: 95%;
+}
     
   #countup {
      text-align: left;

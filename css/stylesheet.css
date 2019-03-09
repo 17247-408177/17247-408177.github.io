@@ -8,6 +8,10 @@ body {
     padding: 0px;
     margin-right: 5%
   }
+
+  html, body {
+  overflow: hidden;
+}
   h1 {
   	font-family: 'VT323', monospace;
     font-size: 15px;

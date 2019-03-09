@@ -1,6 +1,6 @@
 body {
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
     font-family: 'VT323', monospace;
     font-size: 19px;
     letter-spacing: 1.5px;
@@ -21,7 +21,7 @@ body {
     
   a
   {
-     color: #000000;
+     color: #ffffff;
     text-decoration: none;
   }
     
@@ -31,14 +31,14 @@ body {
   #countup p {
      display: inline-block;
      padding: 0px;
-     background: #FFFFFF;
+     background: #000000;
      font-family: 'VT323', monospace;
      font-size: 19px;
      letter-spacing: .5px;
      line-height: 20px;
      margin: 0 0 0px;
      border-radius: 0px;
-     color: black;
+     color: white;
      min-width: 0rem;
   }
 
@@ -59,6 +59,6 @@ body {
 }
 
 #content {
-    background: #FFFFFF;
+    background: #000000;
     width: 100%;
 }

@@ -85,9 +85,9 @@ td {
  line-height: 25px;
  text-align: left;
  /* Starting position */
- -moz-transform:translateY(50%);
- -webkit-transform:translateY(50%); 
- transform:translateY(50%);
+ -moz-transform:translateY(25%);
+ -webkit-transform:translateY(25%); 
+ transform:translateY(25%);
  /* Apply animation to this element */  
  -moz-animation: vertically 40s linear infinite alternate;
  -webkit-animation: vertically 40s linear infinite alternate;
@@ -95,22 +95,22 @@ td {
 }
 /* Move it (define the animation) */
 @-moz-keyframes vertically {
- 0%   { -moz-transform: translateY(50%); }
- 100% { -moz-transform: translateY(-50%); }
+ 0%   { -moz-transform: translateY(25%); }
+ 100% { -moz-transform: translateY(-25%); }
 }
 @-webkit-keyframes vertically {
- 0%   { -webkit-transform: translateY(50%); }
- 100% { -webkit-transform: translateY(-50%); }
+ 0%   { -webkit-transform: translateY(25%); }
+ 100% { -webkit-transform: translateY(-25%); }
 }
 @keyframes vertically {
  0%   { 
- -moz-transform: translateY(50%); /* Browser bug fix */
- -webkit-transform: translateY(50%); /* Browser bug fix */
- transform: translateY(50%);    
+ -moz-transform: translateY(25%); /* Browser bug fix */
+ -webkit-transform: translateY(25%); /* Browser bug fix */
+ transform: translateY(25%);    
  }
  100% { 
- -moz-transform: translateY(-50%); /* Browser bug fix */
- -webkit-transform: translateY(-50%); /* Browser bug fix */
- transform: translateY(-50%); 
+ -moz-transform: translateY(-25%); /* Browser bug fix */
+ -webkit-transform: translateY(-25%); /* Browser bug fix */
+ transform: translateY(-25%); 
  }
 }
